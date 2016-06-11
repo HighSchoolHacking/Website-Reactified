@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es2015",
+        "sourceMap": true,
+        "jsx": "react"
+    },
+    "files": [
+        "src/main.ts",
+        "src/server/server.ts",
+        "src/site/scripts/index.ts",
+        "src/site/scripts/main.tsx",
+        "src/site/scripts/components/app.tsx",
+        "src/site/scripts/components/footer.tsx",
+        "src/site/scripts/components/header.tsx",
+        "src/site/scripts/components/pages/index.tsx",
+        "src/site/scripts/components/pages/language.tsx",
+        "src/site/scripts/components/pages/page.tsx",
+        "src/site/scripts/components/pages/pagesettings.tsx",
+        "src/site/scripts/loading/classloader.ts"
+    ]
+}

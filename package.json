@@ -1,0 +1,41 @@
+{
+  "name": "website-reactified",
+  "version": "1.0.0",
+  "description": "Reactified version of HighSchoolHacking.club",
+  "main": "src/main.js",
+  "scripts": {
+    "run": "src/main.js hsh.json",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highschoolhacking/Website-Reactified.git"
+  },
+  "author": "Josh Goldberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/highschoolhacking/Website-Reactified/issues"
+  },
+  "homepage": "https://github.com/highschoolhacking/Website-Reactified",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "fs-promise": "^0.5.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.4",
+    "less": "^2.7.1",
+    "run-sequence": "^1.2.0",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "requirejs": "^2.2.0"
+  }
+}

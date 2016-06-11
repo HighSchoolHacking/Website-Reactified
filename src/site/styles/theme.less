@@ -1,0 +1,37 @@
+@import "mixins";
+@import "variables";
+
+html, footer {
+    background-color: @body-background-color;
+}
+
+#container {
+    background: @container-background-color;
+}
+
+
+/* Header */
+
+header {
+    padding: 14px 0;
+    background: @dark-background-color;
+    border-bottom: 3px solid @border-color;
+    color: @light-color;
+    cursor: default;
+    .user-select-none;
+}
+
+
+/* Page */
+
+#page {
+    color: @page-color;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 21px 0;
+    border-top: 1px solid @border-color-light;
+}
