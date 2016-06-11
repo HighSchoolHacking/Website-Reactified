@@ -14,5 +14,5 @@ gulp
 
 ```
 start chrome http://localhost:4000
-node src\main
+node src\server\main
 ```
